@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { useCalendlyEventListener, InlineWidget } from 'react-calendly';
 import { Header, TextBlue } from 'styles/typography';
 import Dialog from '@/common/modal';
+import afspraakHero from '../Images/booking.png';
 
 const Booking = () => {
     useCalendlyEventListener({
@@ -15,10 +16,15 @@ const Booking = () => {
     return (
         <div>
             <div
-                style={{ display: 'flex', flexFlow: 'column', alignItems: 'center', marginTop: 50 }}
+                style={{
+                    display: 'flex',
+                    flexFlow: 'column',
+                    alignItems: 'center',
+                    marginTop: 250,
+                }}
             >
                 <Image
-                    filename="booking.png"
+                    filename="bookingHero.jpg"
                     alt="afspraak hero afbeelding. 2 mensen highfiven"
                     width="450px"
                     height="100%"
@@ -39,7 +45,7 @@ const Booking = () => {
                 </Header>
             </div>
             <InlineWidget
-                styles={{ height: '100vh' }}
+                styles={{ height: '1100px' }}
                 data-sal="fade"
                 data-sal-easing="ease-in"
                 data-sal-duration="3000ms"

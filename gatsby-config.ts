@@ -17,7 +17,7 @@ const config: GatsbyConfig = {
         {
             resolve: 'gatsby-plugin-webpack-bundle-analyser-v2',
             options: {
-                devMode: true,
+                devMode: false,
             },
         },
         {
