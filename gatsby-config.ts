@@ -76,7 +76,7 @@ const config: GatsbyConfig = {
                     'https://fonts.googleapis.com',
                     'https://fonts.gstatic.com',
                     'fast.wistia.net',
-                    '(connect.facebook.net',
+                    'connect.facebook.net',
                 ],
             },
         },
