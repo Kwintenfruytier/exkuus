@@ -9,8 +9,7 @@
         "start": "gatsby develop",
         "preview": "gatsby clean && gatsby build && gatsby serve",
         "prepare": "husky install",
-        "deploy": "./scripts/deploy.sh",
-        "optimize-images": "node ./scripts/optimize-images.js"
+        "deploy": "./scripts/deploy.sh"
     },
     "browserslist": [
         ">.75%",
