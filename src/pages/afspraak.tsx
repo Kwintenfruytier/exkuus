@@ -27,7 +27,7 @@ const Booking = () => {
                     alt="afspraak hero afbeelding. 2 mensen highfiven"
                     width="450px"
                     height="100%"
-                    mobile_width="280px"
+                    mobile_width="250px"
                 />
                 <Header
                     style={{ paddingBottom: 50, textAlign: 'center' }}

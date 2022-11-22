@@ -14,7 +14,7 @@ const Faq = () => {
                         data-sal="fade"
                         data-sal-easing="ease-in"
                         data-sal-duration="3000ms"
-                        data-sal-delay="1000ms"
+                        style={{ marginTop: '150px' }}
                     >
                         Al jouw meest gestelde vragen op een rijtje
                     </Heading>
