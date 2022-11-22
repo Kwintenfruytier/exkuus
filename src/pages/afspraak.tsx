@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { useCalendlyEventListener, InlineWidget } from 'react-calendly';
 import { Header, TextBlue } from 'styles/typography';
 import Dialog from '@/common/modal';
-import afspraakHero from '../Images/booking.png';
 
 const Booking = () => {
     useCalendlyEventListener({
