@@ -25,10 +25,8 @@ import Button from '../common/commonButton';
 import { ReactComponent as Back } from '../../Images/svg/arrow_forward.svg';
 import { Link } from 'gatsby';
 import React, { useState } from 'react';
-import heroMP4 from '../../Images/homeHeroImage.mp4';
-import heroWebm from '../../Images/home_hero.webm';
-import heroGif from '../../Images/vault.gif';
-import heroPlaceholder from '../../Images/homeHeroPlaceholder.jpg';
+import heroMP4 from '../../Images/homeHeroVideoMain.mp4';
+import heroWebm from '../../Images/homeHeroVideoSecondary.webm';
 import IconField from '@/diensten/common/Iconfield';
 import Dialog from '@/common/modal';
 import { quotes } from 'constant/home';
@@ -59,17 +57,14 @@ const HomePage = () => {
             <VideoWrapper>
                 <Video>
                     <video
-                        title="openen van een kluis om zo financiële vrijheid te vinden"
-                        loop
+                        title="Kjell praat over zichzelf en zijn bedrijf"
+                        controls
                         autoPlay
                         width={'100%'}
-                        disablePictureInPicture
                         playsInline
-                        poster={heroPlaceholder}
                     >
                         <source src={heroMP4} type="video/mp4" />
                         <source src={heroWebm} type="video/webm" />
-                        <source src={heroGif} type="video/gif" />
                         <track default kind="captions" srcLang="nl"></track>
                     </video>
                     {/*<img
