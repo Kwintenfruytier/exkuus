@@ -21,7 +21,7 @@ const Faq = () => {
                 </Heading_width>
                 <div>
                     <Image
-                        filename="faq1.png"
+                        filename="faqHero.jpg"
                         alt="2 mensen praten en zoeken informatie"
                         width="450px"
                         height="100%"
