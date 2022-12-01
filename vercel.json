@@ -10,6 +10,24 @@
             ]
         },
         {
+            "source": "/fbevents.js",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=0, must-revalidate"
+                }
+            ]
+        },
+        {
+            "source": "/analytics.js",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=0, must-revalidate"
+                }
+            ]
+        },
+        {
             "source": "/fonts",
             "headers": [
                 {
@@ -20,6 +38,15 @@
         },
         {
             "source": "/static/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=max-age=31536000, immutable"
+                }
+            ]
+        },
+        {
+            "source": "/static/**/(.*)",
             "headers": [
                 {
                     "key": "Cache-Control",
