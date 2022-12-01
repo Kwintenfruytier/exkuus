@@ -58,7 +58,7 @@ const HomePage = () => {
             <VideoWrapper>
                 <Video>
                     <video
-                        title="Kjell praat over zichzelf en zijn bedrijf"
+                        title="Kjell praat over zichzelf en zijn bedrijf. Hij vertelt je ook dat ook jij financiële vrijheid kan ervaren!"
                         controls
                         width={'100%'}
                         playsInline
