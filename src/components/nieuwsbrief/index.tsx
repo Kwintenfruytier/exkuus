@@ -37,7 +37,6 @@ const Nieuwsbrief = () => {
                 data-sal-easing="ease-in"
                 data-sal-duration="3000ms"
                 data-sal-delay="3000ms"
-                style={{ marginTop: '150px' }}
             >
                 Niet 1, niet 2... maar <TextBlue fontWeight="700">3 waardevolle emails</TextBlue>{' '}
                 per week!

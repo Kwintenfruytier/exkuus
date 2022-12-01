@@ -19,12 +19,7 @@ const Hero = () => {
     return (
         <>
             <br />
-            <Mobile_Heading
-                data-sal="fade"
-                data-sal-easing="ease-in"
-                data-sal-duration="3000ms"
-                style={{ marginTop: '150px' }}
-            >
+            <Mobile_Heading data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
                 Leer meer over onze programma's
             </Mobile_Heading>
             <Hero_ data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
@@ -34,9 +29,7 @@ const Hero = () => {
                         data-sal-easing="ease-in"
                         data-sal-duration="3000ms"
                     >
-                        <Heading style={{ marginTop: '150px' }}>
-                            Leer meer over onze programma's
-                        </Heading>
+                        <Heading>Leer meer over onze programma's</Heading>
                         <Sub_Heading
                             data-sal="fade"
                             data-sal-easing="ease-in"

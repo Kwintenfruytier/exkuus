@@ -30,7 +30,6 @@ import {
     MobileToggler,
     NavLinks,
     AnchorLink,
-    Promotion,
 } from './header';
 import { Header_Link } from 'styles/typography';
 import styled from '@emotion/styled';
@@ -272,13 +271,6 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                         </StyledLink>
                     ))}
                 </NavLinks>
-                <Link to="/afspraak">
-                    <Promotion>
-                        EXKUUS VIERT FEEST EN JIJ PROFITEERT MEE! ONTDEK ONZE GLOEDNIEUWE EXCLUSIEVE
-                        SERVICE BOVENOP ALLE ANDERE VOORDELEN. <br />
-                        KLIK HIER OM JOUW AFSPRAAK TE MAKEN.
-                    </Promotion>
-                </Link>
             </StickyHeader>
         </Suspense>
     );

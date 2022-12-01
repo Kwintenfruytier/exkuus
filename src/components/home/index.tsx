@@ -27,6 +27,7 @@ import { Link } from 'gatsby';
 import React, { useState } from 'react';
 import heroMP4 from '../../Images/homeHeroVideoMain.mp4';
 import heroWebm from '../../Images/homeHeroVideoSecondary.webm';
+import heroImagePlaceholder from '../../Images/homeHeroVideoPlaceholder.jpg';
 import IconField from '@/diensten/common/Iconfield';
 import Dialog from '@/common/modal';
 import { quotes } from 'constant/home';
@@ -59,9 +60,10 @@ const HomePage = () => {
                     <video
                         title="Kjell praat over zichzelf en zijn bedrijf"
                         controls
-                        autoPlay
                         width={'100%'}
                         playsInline
+                        poster={heroImagePlaceholder}
+                        style={{ objectFit: 'cover' }}
                     >
                         <source src={heroMP4} type="video/mp4" />
                         <source src={heroWebm} type="video/webm" />
