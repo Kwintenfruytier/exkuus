@@ -27,49 +27,7 @@ const config: GatsbyConfig = {
                 debug: false,
             },
         },
-        {
-            resolve: `gatsby-plugin-gatsby-cloud`,
-            options: {
-                headers: {
-                    '/fonts/*': [
-                        'Cache-Control: public, max-age=31536000, s-maxage=31536000, immutable',
-                    ],
-                    '/static/*': [
-                        'Cache-Control: public, max-age=31536000, s-maxage=31536000, immutable',
-                    ],
-                    '/static': [
-                        'Cache-Control: public, max-age=31536000, s-maxage=31536000, immutable',
-                    ],
-                    '/public/page-data/': ['Cache-Control: public, max-age=0, must-revalidate'],
-                    '/public/page-data/app-data.json': [
-                        'Cache-Control: public, max-age=0, must-revalidate',
-                    ],
-                    '/public/icons/*': [
-                        'Cache-Control: public, max-age=31536000, s-maxage=31536000, immutable',
-                    ],
-                    'src/Images/*': [
-                        'Cache-Control: public, max-age=31536000, s-maxage=31536000, immutable',
-                    ],
-                    'src/styles/typography.tsx/*': [
-                        'Cache-Control: public, max-age=31536000, s-maxage=31536000, immutable',
-                    ],
-                    '**/*.woff': [
-                        'Cache-Control: public, max-age=31536000, s-maxage=31536000, immutable',
-                    ],
-                    '**/*.woff2': [
-                        'Cache-Control: public, max-age=31536000, s-maxage=31536000, immutable',
-                    ],
-                }, // option to add more headers. `Link` headers are transformed by the below criteria
-                allPageHeaders: [
-                    'Strict-Transport-Security: max-age=31536000; includeSubDomains; preload',
-                ], // option to add headers for all pages. `Link` headers are transformed by the below criteria
-                mergeSecurityHeaders: true, // boolean to turn off the default security headers
-                mergeLinkHeaders: true, // boolean to turn off the default gatsby js headers
-                mergeCachingHeaders: true, // boolean to turn off the default caching headers
-                generateMatchPathRewrites: true, // boolean to turn off automatic creation of redirect rules for client only paths
-            },
-        },
-        {
+        /*  {
             resolve: 'gatsby-plugin-preconnect',
             options: {
                 domains: [
@@ -79,7 +37,7 @@ const config: GatsbyConfig = {
                     'connect.facebook.net',
                 ],
             },
-        },
+        },*/
         `gatsby-plugin-sitemap`,
         `gatsby-plugin-catch-links`,
         `gatsby-plugin-react-helmet`,
@@ -129,7 +87,7 @@ const config: GatsbyConfig = {
                 icon: `assets/icons/favicon.png`,
             },
         },
-        {
+        /* {
             resolve: `gatsby-omni-font-loader`,
             options: {
                 enableListener: true,
@@ -154,7 +112,7 @@ const config: GatsbyConfig = {
                     },
                 ],
             },
-        },
+        },*/
 
         {
             resolve: 'gatsby-plugin-html-attributes',
