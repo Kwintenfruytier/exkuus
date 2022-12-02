@@ -63,7 +63,7 @@ const HomePage = () => {
                         width={'100%'}
                         playsInline
                         poster={heroImagePlaceholder}
-                        style={{ objectFit: 'cover', border: '1px solid black' }}
+                        style={{ objectFit: 'cover', border: '4px solid black' }}
                     >
                         <source src={heroMP4} type="video/mp4" />
                         <source src={heroWebm} type="video/webm" />
