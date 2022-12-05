@@ -15,7 +15,12 @@ export default function HTML(props) {
                 <link rel="preconnect" href="https://www.googletagmanager.com" />
                 <link rel="preconnect" href="https://www.google-analytics.com" />
                 <link rel="preconnect" href="https://fast.wistia.net" />
-                <link rel="preload" as="image" href="../src/Images/homeHeroVideoPlaceholder.jpg" />
+                <link
+                    rel="preload"
+                    as="image"
+                    href="../src/Images/homeHeroVideoPlaceholder.jpg"
+                    fetchpriority="high"
+                />
                 <script
                     dangerouslySetInnerHTML={{
                         __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var
