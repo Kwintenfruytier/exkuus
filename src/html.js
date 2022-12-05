@@ -12,6 +12,8 @@ export default function HTML(props) {
                     content="width=device-width, initial-scale=1, shrink-to-fit=no"
                 />
                 {props.headComponents}
+                <link rel="preconnect" href="https://www.googletagmanager.com" />
+                <link rel="preconnect" href="https://www.google-analytics.com" />
                 <script
                     dangerouslySetInnerHTML={{
                         __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var
