@@ -26,6 +26,7 @@ export const GlobalStyles = () => {
             styles={() => css`
                 import '@fontsource/cairo';
                 import "@fontsource/text-me-one";
+                import "@fontsource/material-icons"
                  body {
                     font-family: 'Cairo', sans-serif;
                     font-display: 'swap';
