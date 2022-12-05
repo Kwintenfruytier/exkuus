@@ -3,7 +3,7 @@ import { Header, Desc, TextBlue, TextYellow } from 'styles/typography';
 import TextFieldComponent from '../common/textField';
 import Button from '../common/commonButton';
 import Dialog from '@/common/modal';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { handleSubmit } from 'utils/nieuwsbrief-active-campaign';
 
 const Nieuwsbrief = () => {

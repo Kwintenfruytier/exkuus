@@ -1,6 +1,6 @@
 import { GlobalStyles, theme } from '@/GlobalStyles';
 import { ThemeProvider } from '@emotion/react';
-import { createContext, FC, useContext, useState } from 'react';
+import React, { createContext, FC, useContext, useState } from 'react';
 
 type SiteState = {
     language: 'nl';
