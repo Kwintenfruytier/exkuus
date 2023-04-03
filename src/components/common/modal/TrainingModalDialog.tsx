@@ -124,6 +124,7 @@ const TrainingModalDialog = ({ isOpen, closeModal }: any) => {
                         text="Ik wil de gratis training!"
                         backgroundColor="#ffdf2b"
                         fontSize="25px"
+                        color="black"
                     />
                 </Form>
             </ModalWrapper>
