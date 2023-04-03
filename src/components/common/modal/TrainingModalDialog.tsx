@@ -9,8 +9,12 @@ import { ACTIVE_CAMPAIGN_CONTACT_URL } from 'constant/config';
 import styled from '@emotion/styled';
 
 const customStyles = {
+    overlay: {
+        backgroundColor: 'rgba(0, 0, 0, 0.93)',
+    },
     content: {
         outerWidth: '600px',
+
         top: '50%',
         left: '50%',
         right: 'auto',
@@ -20,6 +24,7 @@ const customStyles = {
         borderRadius: '10px',
         background: '#F8FAF6',
         marginTop: '3rem',
+        fontFamily: 'Text Me One, Cairo, sans-serif',
     },
 };
 
@@ -38,11 +43,13 @@ const Input = styled.input`
 const Form = styled.form`
     display: flex;
     flex-direction: column;
+    font-family: 'Text Me One', sans-serif;
 `;
 
 const InputLabel = styled.label`
     font-size: 20px;
     margin-top: 20px;
+    font-family: 'Text Me One', sans-serif;
 `;
 
 const TrainingModalDialog = ({ isOpen, closeModal }: any) => {
