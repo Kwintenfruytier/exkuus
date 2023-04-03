@@ -24,7 +24,7 @@ import TextFieldComponent from '../common/textField';
 import Button from '../common/commonButton';
 import { ReactComponent as Back } from '../../Images/svg/arrow_forward.svg';
 import { Link } from 'gatsby';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import heroMP4 from '../../Images/homeHeroVideoMain.mp4';
 import heroWebm from '../../Images/homeHeroVideoSecondary.webm';
 import heroImagePlaceholder from '../../Images/homeHeroVideoPlaceholder.jpg';
@@ -32,6 +32,8 @@ import IconField from '@/diensten/common/Iconfield';
 import Dialog from '@/common/modal';
 import { quotes } from 'constant/home';
 import { handleSubmit } from 'utils/nieuwsbrief-active-campaign';
+import TrainingModalDialog from '@/common/modal/TrainingModalDialog';
+
 const HomePage = () => {
     const [state, setState] = useState({
         isDialogOpen: false,
@@ -49,6 +51,15 @@ const HomePage = () => {
             ...state,
             isDialogOpen: false,
         });
+    };
+    const [isTrainingModalOpen, setIsTrainingModalOpen] = useState(false);
+
+    const handleOpenTrainingModal = () => {
+        setIsTrainingModalOpen(true);
+    };
+
+    const handleCloseTrainingModal = () => {
+        setIsTrainingModalOpen(false);
     };
 
     return (
@@ -86,19 +97,22 @@ const HomePage = () => {
                         <TextBlue fontWeight="700">Dat kan!</TextBlue>
                     </Header>
                     <Center>
-                        <Link to="/afspraak" style={{ textDecoration: 'none', color: 'black' }}>
-                            <Button
-                                text="maak een afspraak en ontdek hoe"
-                                background-color="#FFDF2B"
-                                color="#000000"
-                                border="1px solid #000000"
-                                font-size="15px"
-                                letter-spacing="2px"
-                                text-transform="uppercase"
-                                t_width="200px"
-                                m_width="180px"
-                            />
-                        </Link>
+                        <Button
+                            text="BEKIJK GRATIS TRAINING"
+                            background-color="#FFDF2B"
+                            color="#000000"
+                            border="1px solid #000000"
+                            font-size="15px"
+                            letter-spacing="2px"
+                            text-transform="uppercase"
+                            t_width="200px"
+                            m_width="180px"
+                            onClick={handleOpenTrainingModal}
+                        />
+                        <TrainingModalDialog
+                            isOpen={isTrainingModalOpen}
+                            closeModal={handleCloseTrainingModal}
+                        />
                     </Center>
                 </Right_Section>
             </VideoWrapper>

@@ -29,7 +29,7 @@ export const handleSubmit = (e: any, openModal: any) => {
         .catch(() => {
             Swal.fire({
                 title: 'Error!',
-                text: 'Sorry an error has  occured!',
+                text: 'Sorry! Er is een fout opgetreden :(',
                 icon: 'error',
                 confirmButtonText: 'Close',
             });

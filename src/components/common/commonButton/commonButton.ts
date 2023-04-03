@@ -4,6 +4,7 @@ import { mq } from 'styles/media-query';
 
 export const Button = styled.button<{
     shadow?: string;
+    backgroundColor?: string;
     width?: string;
     t_width?: string;
     m_width?: string;
@@ -21,6 +22,8 @@ export const Button = styled.button<{
     margin-top: 37px;
     letter-spacing: 1px;
     cursor: pointer;
+    background-color: ${props => props.backgroundColor};
+
     ${(props: any) => ({ ...props })};
     ${props => css`
         ${mq['md']} {
