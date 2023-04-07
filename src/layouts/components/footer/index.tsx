@@ -24,6 +24,7 @@ import { ReactComponent as Meta } from 'Images/svg/meta.svg';
 import { ReactComponent as GoogleMobile } from 'Images/svg/google-mobile.svg';
 import { ReactComponent as MetaMobile } from 'Images/svg/meta-mobile.svg';
 
+const currentYear = new Date();
 const Footer = () => {
     return (
         <FooterContainer>
@@ -257,7 +258,8 @@ const Footer = () => {
             <SeperatorLight />
             <FooterBottom>
                 <Text padding-top="0px" padding-bottom="5px">
-                    Copyright 2022 - All rights reserved - Made by klickD with❤️️
+                    Copyright {currentYear.getFullYear()}- All rights reserved - Made by klickD
+                    with❤️️
                 </Text>
             </FooterBottom>
         </FooterContainer>
