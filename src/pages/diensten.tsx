@@ -240,8 +240,8 @@ import { SEO } from '../components/seo';
 
 export const Head: HeadFC = () => (
     <SEO
-        title="Exkuus PROGRAMMA'S | Welke programma's bieden we aan?"
+        title="Exkuus PROGRAMMA | Welk programma bieden we aan?"
         keywords="Anderzom, Financiële vrijheid, Exkuus, Kjell Exkuus, Kjell Anderzom"
-        description="Ontdek wat wij voor jou kunnen doen! Lees over onze programma's en contacteer ons om jouw leven te veranderen. Wat is jouwe exkuus?"
+        description="Ontdek wat wij voor jou kunnen doen! Lees over ons programma en contacteer ons om jouw leven te veranderen. Wat is jouwe exkuus?"
     />
 );
