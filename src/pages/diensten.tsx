@@ -158,13 +158,13 @@ const diensten = () => {
                     IK BEN KLAAR OM MIJN LEVEN TE VERANDEREN
                 </Dienten_Button>
             </Link>
-            <Diensten_paragraph></Diensten_paragraph>
+            {/*  <Diensten_paragraph></Diensten_paragraph>
             <Diensten_Hero_title
                 data-sal="fade"
                 data-sal-easing="ease-in"
                 data-sal-duration="3000ms"
             >
-                NEXT LEVEL MASTERMIND
+                 NEXT LEVEL MASTERMIND
             </Diensten_Hero_title>
             <Diensten_paragraph
                 fontsize="22px"
@@ -225,7 +225,7 @@ const diensten = () => {
                         data-sal-duration="3000ms"
                     />
                 </Link>
-            </Button_wrapper>
+                    </Button_wrapper> */}
         </Diensten_section>
     );
 };

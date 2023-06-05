@@ -20,7 +20,7 @@ const Hero = () => {
         <>
             <br />
             <Mobile_Heading data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
-                Leer meer over onze programma's
+                Leer meer over ons programma
             </Mobile_Heading>
             <Hero_ data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
                 <Hide>
@@ -29,7 +29,7 @@ const Hero = () => {
                         data-sal-easing="ease-in"
                         data-sal-duration="3000ms"
                     >
-                        <Heading>Leer meer over onze programma's</Heading>
+                        <Heading>Leer meer over ons programmas</Heading>
                         <Sub_Heading
                             data-sal="fade"
                             data-sal-easing="ease-in"

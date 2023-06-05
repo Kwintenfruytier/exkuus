@@ -139,7 +139,7 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                                                 <Header_Link
                                                     active={location.pathname === '/diensten/'}
                                                 >
-                                                    programma's
+                                                    programmma
                                                 </Header_Link>
                                             </MenuItem>
                                         </StyledLink>
