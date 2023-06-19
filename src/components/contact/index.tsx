@@ -167,7 +167,7 @@ const Contact = () => {
                         />
                     </AdornmentWrapper>
                     <AdornmentWrapper>
-                        <TopAdornment>GSM</TopAdornment>
+                        <TopAdornment>GSM*</TopAdornment>
                         <TextFieldComponent
                             text="Jouw gsm nummer"
                             background-color="none"
@@ -178,6 +178,7 @@ const Contact = () => {
                             input={true}
                             name="phone"
                             width="100%"
+                            required
                         />
                     </AdornmentWrapper>
                     <AdornmentWrapper>
