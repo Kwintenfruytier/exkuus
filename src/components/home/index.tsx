@@ -97,22 +97,28 @@ const HomePage = () => {
                         <TextBlue fontWeight="700">Dat kan!</TextBlue>
                     </Header>
                     <Center>
-                        <Button
-                            text="BEKIJK GRATIS TRAINING"
-                            background-color="#FFDF2B"
-                            color="#000000"
-                            border="1px solid #000000"
-                            font-size="15px"
-                            letter-spacing="2px"
-                            text-transform="uppercase"
-                            t_width="200px"
-                            m_width="180px"
-                            onClick={handleOpenTrainingModal}
-                        />
+                        <a
+                            href="https://www.exkuus.be/registreren-wf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Button
+                                text="BEKIJK GRATIS TRAINING"
+                                background-color="#FFDF2B"
+                                color="#000000"
+                                border="1px solid #000000"
+                                font-size="15px"
+                                letter-spacing="2px"
+                                text-transform="uppercase"
+                                t_width="200px"
+                                m_width="180px"
+                            />
+                        </a>
+                        {/*   <onClick={handleOpenTrainingModal}
                         <TrainingModalDialog
                             isOpen={isTrainingModalOpen}
                             closeModal={handleCloseTrainingModal}
-                        />
+                />*/}
                     </Center>
                 </Right_Section>
             </VideoWrapper>
