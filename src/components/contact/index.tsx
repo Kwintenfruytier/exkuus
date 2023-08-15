@@ -16,6 +16,7 @@ import Dialog from '@/common/modal';
 import Image from '@/common/image';
 const MaterialIcon = lazy(() => import('material-icons-react'));
 import { ACTIVE_CAMPAIGN_CONTACT_URL, ACTIVE_CAMPAIGN_CONTACT_FORM_ID } from 'constant/config';
+import { TextArea } from '@/common/textField/textField';
 
 const Contact = () => {
     const [state, setState] = useState({
@@ -35,8 +36,11 @@ const Contact = () => {
             isDialogOpen: false,
         });
     };
+
     function handleSubmit(e: any) {
         e.preventDefault();
+
+        // Rest of your form submission logic...
         const formData = new FormData();
         formData.append('u', ACTIVE_CAMPAIGN_CONTACT_FORM_ID);
         formData.append('f', ACTIVE_CAMPAIGN_CONTACT_FORM_ID);
@@ -49,6 +53,8 @@ const Contact = () => {
         formData.append('email', e.target[1].value);
         formData.append('phone', e.target[2].value);
         formData.append('field[39]', e.target[3].value);
+
+        // Replace new line characters with a unique identifier
         fetch(ACTIVE_CAMPAIGN_CONTACT_URL, {
             method: 'POST',
             body: formData,
@@ -58,13 +64,13 @@ const Contact = () => {
             },
         })
             .then(() => {
-                openModal();
-                e.target.reset();
+                e.target.reset(); // Reset the form
+                openModal(); // Show the popup
             })
             .catch(() => {
                 Swal.fire({
                     title: 'Error!',
-                    text: 'Sorry an error has been occured!',
+                    text: 'Sorry an error has occurred!',
                     icon: 'error',
                     confirmButtonText: 'Close',
                 });
@@ -185,14 +191,17 @@ const Contact = () => {
                         <TopAdornment>Boodschap*</TopAdornment>
                         <TextFieldComponent
                             text="Typ jouw bericht"
+                            enableNewLines // Enable new lines behavior only for the message field
                             background-color="none"
                             color="#00000080"
                             name="message"
                             border="2px solid #FFDF2B"
                             font-size="16px"
                             font-weight={300}
-                            input={true}
                             width="100%"
+                            value={state.message}
+                            onChange={e => setState({ ...state, message: e.target.value })}
+                            rows={4}
                             required
                         />
                     </AdornmentWrapper>
