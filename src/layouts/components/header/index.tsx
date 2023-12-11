@@ -59,7 +59,7 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                     <Logo>
                         <Link to="/">
                             <Image
-                                filename="logo.png"
+                                filename="src/Images/exkuus_logo.png"
                                 alt="Exkuus Logo"
                                 width="191px"
                                 mobile_width="129px"
@@ -91,7 +91,7 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                                 <MobileModal>
                                     <LogoWrapper>
                                         <Image
-                                            filename="logo.png"
+                                            filename="src/Images/exkuus_logo.png"
                                             alt="logo exkuus"
                                             width="191px"
                                             mobile_width="129px"
