@@ -54,7 +54,7 @@ export const faq_data = [
     },
     {
         question: 'Is dit programma up-to-date?',
-        answer: 'Ons programma is 2023 proof en wordt nog wekelijks geüpdatet. We staan open voor input van onze familieleden en geven hier ook daadwerkelijk en op de minimale termijn een passend gevolg aan om ons programma ten allen tijde te voorzien van meer kwaliteit.',
+        answer: 'Ons programma is 2024 proof en wordt nog wekelijks geüpdatet. We staan open voor input van onze familieleden en geven hier ook daadwerkelijk en op de minimale termijn een passend gevolg aan om ons programma ten allen tijde te voorzien van meer kwaliteit.',
     },
 
     {
