@@ -32,7 +32,7 @@ const Footer = () => {
             <Desktop_hidden>
                 <br />
                 <Image
-                    filename="logo.png"
+                    filename="exkuus_logo.png"
                     alt="logo"
                     width="191px"
                     mobile_width="129px"
@@ -47,7 +47,7 @@ const Footer = () => {
                         <Hidden>
                             <br />
                             <Image
-                                filename="logo.png"
+                                filename="exkuus_logo.png"
                                 alt="logo"
                                 width="191px"
                                 height="41px"
@@ -108,7 +108,7 @@ const Footer = () => {
                         </Text>
                     </Link>
 
-                    <Link to="/privacy">
+                    <Link to="/disclaimer">
                         <Text data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
                             disclaimers
                         </Text>
