@@ -887,7 +887,7 @@ const overOns = () => {
                 <Members>
                     <Member_Img>
                         <Image
-                            filename="ilias-main.jpg"
+                            filename="Ilias-main.jpg" 
                             alt="Foto Ilias"
                             width="100%"
                             height="100%"
