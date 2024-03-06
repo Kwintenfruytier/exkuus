@@ -884,7 +884,7 @@ const overOns = () => {
                         </P>
                     </MemberIntro>
                 </Members>
-                <Members>
+               {/* <Members>
                     <Member_Img>
                         <Image
                             filename="Ilias-main.jpg" 
@@ -927,7 +927,7 @@ const overOns = () => {
                             Anderen helpen is zijn grootste drijfveer.
                         </P>
                     </MemberIntro>
-                </Members>
+                </Members> */}
             </Teams>
             <Link to="/afspraak">
                 <Button
