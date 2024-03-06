@@ -153,11 +153,12 @@ const Footer = () => {
                             Boek nu jouw afspraak
                         </Paragraph>
                     </Link>
-                    <Link to="/nieuwsbrief">
+                   {/*NIEUWSBRIEF TO BE ADDED LATER
+                   <Link to="/nieuwsbrief">
                         <Text data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
                             Ontvang onze nieuwsbrief
                         </Text>
-                    </Link>
+                    </Link>*/} 
                 </Item>
                 <Item>
                     <Item_hidden display="grid">

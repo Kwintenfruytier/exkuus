@@ -101,6 +101,10 @@ export const videos = [
         link: 'https://player.vimeo.com/video/729220405?h=d0bf1d2a15&badge=0&autopause=0&player_id=0&app_id=58479/embed',
         bg: '#87D7FF',
         color: '#000000',
+    }, {
+        link: 'https://player.vimeo.com/video/606622247?h=ddcfad18fc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+        bg: '#87D7FF',
+        color: '#000000',
     },
     {/* video nicolas & Ilias eruit
     {

@@ -16,7 +16,7 @@ const Faq = () => {
                         data-sal-duration="3000ms"
                         style={{ marginTop: '150px' }}
                     >
-                        Al jouw meest gestelde vragen op een rijtje
+                        Meest gestelde vragen over Anderzom
                     </Heading>
                 </Heading_width>
                 <div>
