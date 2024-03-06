@@ -209,7 +209,9 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                                                 </MenuItem>
                                             </StyledLink>
                                         </AnchorLink>
-                                        <StyledLink
+                                       {/* NIEUWSBRIEF IN HEADER TO BE ADDED LATER
+                                       
+                                     <StyledLink
                                             to="/nieuwsbrief"
                                             onClick={() => setOpenModal(!openModal)}
                                         >
@@ -224,7 +226,7 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                                                     nieuwsbrief
                                                 </Header_Link>
                                             </MenuItem>
-                                        </StyledLink>
+                                        </StyledLink> */}
                                         <StyledLink
                                             to="/contact"
                                             onClick={() => setOpenModal(!openModal)}

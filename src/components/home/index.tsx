@@ -283,8 +283,8 @@ const HomePage = () => {
                     </Link>
                 </ArrowContainer>
                 <br />
-                <Header data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
-                    Elke week 3 mails
+               <Header data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+               Waardevolle e-mails
                     <br /> ontvangen die jouw
                     <br /> leven zomaar kunnen
                     <br />

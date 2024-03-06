@@ -332,7 +332,7 @@ const overOns = () => {
             </VerticalTags>
             <Connector2 data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms" />
 
-            <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
+           {/* <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
                 <Tag
                     bg="#1270B0"
                     color="white"
@@ -373,8 +373,8 @@ const overOns = () => {
                 </Line>
             </VerticalTags>
             <Connector2 data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms" />
-
-            <VerticalTags>
+                        */}
+            <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
                 <Tag
                     bg="#FFDF2B"
                     data-sal="fade"
@@ -414,7 +414,7 @@ const overOns = () => {
             </VerticalTags>
             <Connector2 data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms" />
 
-            <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
+            <VerticalTags>
                 <Tag
                     bg="#1F4668"
                     color="white"
@@ -457,7 +457,7 @@ const overOns = () => {
             </VerticalTags>
             <Connector2 data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms" />
 
-            <VerticalTags>
+            <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
                 <Tag
                     bg="#1270B0"
                     data-sal="fade"
@@ -498,7 +498,7 @@ const overOns = () => {
             </VerticalTags>
             <Connector2 />
 
-            <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
+            <VerticalTags>
                 <Tag
                     bg="#FFDF2B"
                     data-sal="fade"
@@ -539,7 +539,7 @@ const overOns = () => {
             </VerticalTags>
             <Connector2 />
 
-            <VerticalTags>
+            <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
                 <Tag
                     bg="#1F4668"
                     data-sal="fade"
@@ -580,7 +580,7 @@ const overOns = () => {
             </VerticalTags>
             <Connector2 />
 
-            <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
+            <VerticalTags>
                 <Tag
                     bg="#1270B0"
                     color="white"
@@ -623,7 +623,7 @@ const overOns = () => {
             </VerticalTags>
             <Connector2 />
 
-            <VerticalTags>
+            <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
                 <Tag
                     bg="#FFDF2B"
                     data-sal="fade"
@@ -663,7 +663,7 @@ const overOns = () => {
             </VerticalTags>
             <Connector2 />
 
-            <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
+            {/*<VerticalTags>
                 <Tag
                     bg="#1F4668"
                     color="white"
@@ -705,6 +705,7 @@ const overOns = () => {
                 </Line>
             </VerticalTags>
             <Connector2 />
+                    */}
 
             <VerticalTags>
                 <Tag
@@ -897,7 +898,7 @@ const overOns = () => {
                             data-sal-easing="ease-in"
                             data-sal-duration="3000ms"
                         />
-                    </Member_Img>
+                    </Member_Img>g
                     <MemberIntro bg="#FFDF2B">
                         <P
                             size="19px"

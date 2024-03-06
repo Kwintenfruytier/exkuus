@@ -102,11 +102,12 @@ export const videos = [
         bg: '#87D7FF',
         color: '#000000',
     },
+    {/* video nicolas & Ilias eruit
     {
         link: 'https://player.vimeo.com/video/610878536?h=38140d41df&badge=0&autopause=0&player_id=0&app_id=58479/embed',
         bg: '#275689',
         color: '#000000',
-    },
+    }, 
     {
         link: 'https://player.vimeo.com/video/658580448?h=d6ffb1f469&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
         bg: '#87D7FF',
@@ -116,17 +117,18 @@ export const videos = [
         link: 'https://player.vimeo.com/video/652791609?h=45f22133a0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
         bg: '#275689',
         color: '#000000',
-    },
+    },*/},
     {
         link: 'https://player.vimeo.com/video/606622247?h=ddcfad18fc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
         bg: '#87D7FF',
         color: '#000000',
     },
+    {/* laatste ilais vid
     {
         link: 'https://player.vimeo.com/video/731616480?h=03427ec1cb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
         bg: '#275689',
         color: '#000000',
-    },
+    },*/}
 ];
 
 export const screenshots = [

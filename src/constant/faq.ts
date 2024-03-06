@@ -13,7 +13,7 @@ export const faq_data = [
     },
     {
         question: 'Zijn Kjell & Nomi zelf aanwezig in coaching calls?',
-        answer: 'Nomi zal elke week aanweziging zijn tijdens de coaching calls. Kjell, daarentegen, zal sporadisch aansluiten! :)',
+        answer: 'Zijn zullen beiden elke week aanwezig zijn tijdens de coaching calls.',
     },
     {
         question: 'Kan ik dit programma vergelijken met een cursus?',
@@ -34,7 +34,7 @@ export const faq_data = [
 
     {
         question: 'Hoeveel coaching calls zijn er wekelijks gepland?',
-        answer: 'Doorgaans worden er 3 vaste coaching calls georganiseerd. Sporadisch worden hier extra calls aan toegevoegd wanneer de vraag groot is: We willen onze familieleden ten allen tijde voorzien van het maximale.',
+        answer: 'Doorgaans worden er 2 vaste coaching calls georganiseerd. Sporadisch worden hier extra calls aan toegevoegd wanneer de vraag groot is: We willen onze familieleden ten allen tijde voorzien van het maximale.',
     },
     {
         question: 'Zal mijn vraag persoonlijk beantwoord worden?',
@@ -64,10 +64,6 @@ export const faq_data = [
     {
         question: 'Kan ik dit in bijberoep doen?',
         answer: 'Natuurlijk! Sterker nog, de meeste van onze cursisten starten allemaal vanuit een bijberoep zodat hun huidige hoofdberoep nog als "zekerheid" kan dienen. In een latere fase zien we de tendens naar een complete omschakeling.',
-    },
-    {
-        question: 'Is dit weer zo een typisch piramidesysteem?',
-        answer: 'Neen! Hier zijn we zelf geen voorstander van. Ons traject is compleet onafhankelijk en zal jou stimuleren naar zelfstandigheid. Dit houd in dat je volledig zelf verantwoordelijk bent voor jouw eigen zaak en dat alle inkomsten die je zal genereren integraal voor jou zijn, zonder hier dergelijke commissies op af te moeten geven.',
     },
     {
         question: 'Hoe zit het met de belastingen?',
