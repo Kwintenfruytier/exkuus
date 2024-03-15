@@ -184,7 +184,7 @@ const Contact = () => {
                             input={true}
                             name="phone"
                             width="100%"
-                            required
+                            
                         />
                     </AdornmentWrapper>
                     <AdornmentWrapper>
