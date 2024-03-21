@@ -13,7 +13,7 @@ export const faq_data = [
     },
     {
         question: 'Zijn Kjell & Nomi zelf aanwezig in coaching calls?',
-        answer: 'Zijn zullen beiden elke week aanwezig zijn tijdens de coaching calls.',
+        answer: 'Zij zullen beiden elke week aanwezig zijn tijdens de coaching calls.',
     },
     {
         question: 'Kan ik dit programma vergelijken met een cursus?',

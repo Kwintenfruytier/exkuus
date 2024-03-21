@@ -121,7 +121,7 @@ export const videos = [
         link: 'https://player.vimeo.com/video/652791609?h=45f22133a0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
         bg: '#275689',
         color: '#000000',
-    },*/},
+    },},
     {
         link: 'https://player.vimeo.com/video/606622247?h=ddcfad18fc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
         bg: '#87D7FF',
