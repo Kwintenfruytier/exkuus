@@ -7,7 +7,7 @@ export const DefaultLayout: React.FC<{ children: React.ReactNode }> = ({ childre
     const [sidebarOpen, setsidebarOpen] = useState(false);
     return (
         <Layout sidebar={sidebarOpen}>
-            <CookieBanner
+          {/*  <CookieBanner
                 styles={{
                     banner: { position: 'absolute', bottom: 0, height: 'auto' },
                 }}
@@ -19,7 +19,8 @@ export const DefaultLayout: React.FC<{ children: React.ReactNode }> = ({ childre
                 cookie="user-has-accepted-cookies"
                 buttonMessage="Ik snap het."
                 dismissOnScrollThreshold={100}
-            />
+            />*/}
+
             <Header setOpenModal={setsidebarOpen} openModal={sidebarOpen} />
             <Container>{children}</Container>
             <Footer />
