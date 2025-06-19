@@ -98,7 +98,7 @@ const HomePage = () => {
                     </Header>
                     <Center>
                         <a
-                            href="https://www.exkuus.be/registreren-wf"
+                            href="https://www.exkuus.be/bekijken"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
