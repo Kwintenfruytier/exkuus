@@ -48,7 +48,7 @@ const Booking = () => {
                 data-sal="fade"
                 data-sal-easing="ease-in"
                 data-sal-duration="3000ms"
-                url="https://calendly.com/elysium-coaching/anderzom"
+                url="https://calendly.com/elysium-coaching/digitale-kennismaking-clone-2?hide_gdpr_banner=1"
             />
         </div>
     );
